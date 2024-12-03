@@ -113,11 +113,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Cha jihun"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "지훈의 개발 블로그 입니다."
+  location         : "South Korea"
+  email            : "a01093818739@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
