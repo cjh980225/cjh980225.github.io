@@ -301,7 +301,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
@@ -310,5 +310,8 @@ defaults:
       toc_sticky: true
       toc_label: 목차
       toc_icon: "fas fa-th-list"
+      sidebar: 
+        nav: "docs"
+      sidebar_main: true
 
 date_format: "%Y-%m-%d"
