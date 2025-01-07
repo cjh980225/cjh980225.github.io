@@ -1,5 +1,5 @@
 ---
-title: "Library_Review"
+title: "라이브러리 리뷰"
 layout: archive
 permalink: categories/Library_Review
 author_profile: true

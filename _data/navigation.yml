@@ -4,10 +4,8 @@ main:
     url: /
   - title: "Portfolio"
     url: /portfolio/ 
-  - title: "Category"
-    url: /categories/
-  - title: "About"
-    url: /about/
+  - title: "Search"
+    url: /search/
 
 docs: 
   - title: "Blog"

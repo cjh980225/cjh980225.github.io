@@ -1,5 +1,5 @@
 ---
-title: "jekyll"
+title: "개발 블로그"
 layout: archive
 permalink: categories/jekyll
 author_profile: true

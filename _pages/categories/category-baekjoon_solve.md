@@ -1,5 +1,5 @@
 ---
-title: "baekjoon_solve"
+title: "백준 문제풀이"
 layout: archive
 permalink: categories/baekjoon_solve
 author_profile: true
