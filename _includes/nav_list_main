@@ -53,6 +53,22 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">Book_Study </span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Book_Study" %}
+                        <li><a href="/categories/Book_Study" class="">이것이 데이터 분석이다 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">Data_Science </span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Data_Science" %}
+                        <li><a href="/categories/Data_Science" class="">데이터 사이언스 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
 
       </li>
   </ul>
