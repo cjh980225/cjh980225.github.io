@@ -8,64 +8,117 @@
   <ul class="nav__items" id="category_tag_menu">
       <!--전체 글 수-->
       <li>
-            📂 <span style="font-family:'Noto Sans KR';">전체 글 수</style> <span style="font-family:'Noto Sans KR';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
+        📚<span style="font-family:'Noto Sans KR';">전체 글 수</style> <span style="font-family:'Noto Sans KR';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
-        <span class="nav__sub-title">Coding Test </span>
+        <span class="nav__sub-title">🔍Data Analysis (데이터 분석) </span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
                 <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
-                    {% if category[0] == "baekjoon_solve" %}
-                        <li><a href="/categories/baekjoon_solve" class="">백준 문제풀이 ({{category[1].size}})</a></li>
+                    {% if category[0] == "EDA&Visualization" %}
+                        <li><a href="/categories/EDA&Visualization" class="">💡EDA & Visualization ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Feature_Eingineering" %}
+                        <li><a href="/categories/Feature_Eingineering" class="">💡Feature Engineering ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Data_Structure" %}
-                        <li><a href="/categories/Data_Structure" class="">자료구조 ({{category[1].size}})</a></li>
+                    {% if category[0] == "Statistical_Analysis" %}
+                        <li><a href="/categories/Statistical_Analysis" class="">💡Statistical Analysis ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/Algorithm" class="">알고리즘 ({{category[1].size}})</a></li>
+                    {% if category[0] == "Case_Studies&Reports" %}
+                        <li><a href="/categories/Case_Studies&Reports" class="">💡Case Studies & Reports ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">블로그 만들기 </span>
+        <span class="nav__sub-title">🔍Machine Learning (머신러닝) </span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "jekyll" %}
-                        <li><a href="/categories/jekyll" class="">개발 블로그 ({{category[1].size}})</a></li>
+                    {% if category[0] == "ML_Algorithms" %}
+                        <li><a href="/categories/ML_Algorithms" class="">💡ML Algorithms ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Python </span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Library_Review" %}
-                        <li><a href="/categories/Library_Review" class="">라이브러리 리뷰 ({{category[1].size}})</a></li>
+                    {% if category[0] == "Model_Training&Tuning" %}
+                        <li><a href="/categories/Model_Training&Tuning" class="">💡Model Training & Tuning ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Book_Study </span>
+
+        <span class="nav__sub-title">🔍Python (파이썬) </span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Book_Study" %}
-                        <li><a href="/categories/Book_Study" class="">이것이 데이터 분석이다 ({{category[1].size}})</a></li>
+                    {% if category[0] == "Python_Basics" %}
+                        <li><a href="/categories/Python_Basics" class="">💡Python Basics ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Data_Science </span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Data_Science" %}
-                        <li><a href="/categories/Data_Science" class="">데이터 사이언스 ({{category[1].size}})</a></li>
+                    {% if category[0] == "Algorithm&Problem_Solving" %}
+                        <li><a href="/categories/Algorithm&Problem_Solving" class="">💡Algorithm & Problem Solving ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+        <span class="nav__sub-title">🔍SQL (SQL & 데이터베이스) </span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "SQL_Basics" %}
+                        <li><a href="/categories/SQL_Basics" class="">💡SQL Basics ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "SQL_Practice" %}
+                        <li><a href="/categories/SQL_Practice" class="">💡SQL Practice ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">🔍Projects (프로젝트 & 실전 분석) </span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Personal_Projects" %}
+                        <li><a href="/categories/Personal_Projects" class="">💡Personal Projects ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Case_Studies" %}
+                        <li><a href="/categories/Case_Studies" class="">💡Case Studies ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">🔍Study Notes (스터디 기록) </span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Books&Courses" %}
+                        <li><a href="/categories/Books&Courses" class="">💡Books & Courses ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Learning_Insights" %}
+                        <li><a href="/categories/Learning_Insights" class="">💡Learning Insights ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
