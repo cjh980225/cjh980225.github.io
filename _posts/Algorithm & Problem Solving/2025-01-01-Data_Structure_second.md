@@ -8,9 +8,9 @@ tag: [python, Data_Structure, baekjoon, Coding_test, basic, list]
 
 ### 배열의 정의와 기본 개념 
 
-    배열은 연속된 메모리 공간에 순차적으로 저장된 데이터 모음입니다. 
+    ◾배열은 연속된 메모리 공간에 순차적으로 저장된 데이터 모음입니다. 
 
-    배열을 구성하는 각각의 값을 요소 (element)라고 하며, 배열에서의 위치를 가리키는 숫자는 인덱스 (index)라고 합니다. 
+    ◾배열을 구성하는 각각의 값을 요소 (element)라고 하며, 배열에서의 위치를 가리키는 숫자는 인덱스 (index)라고 합니다. 
 
 ### 배열의 특징
 
@@ -23,7 +23,7 @@ tag: [python, Data_Structure, baekjoon, Coding_test, basic, list]
 
 ### 배열의 시간 복잡도 분석 
 
-|Operation|average case|worst case|
+|Operation|Average case|Worst case|
 |-|-|-|
 |read|O(1)|O(1)|
 |insert|O(n)|O(n)|

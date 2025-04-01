@@ -8,7 +8,7 @@ categories: EDA&Visualization
 tag: [python, Data_Science, Data, visualization, Preprocessing]
 ---
 
-# 음주 여부에 따라 건강검진 수치 차이가 있을까 
+# 음주 여부에 따라 건강검진 수치 차이가 있을까? 
 
 
 ---
