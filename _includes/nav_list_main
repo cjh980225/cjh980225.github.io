@@ -13,7 +13,7 @@
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
         <span class="nav__sub-title">🔍Data Analysis (데이터 분석) </span>
-            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->   
             <ul>
                 <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
@@ -40,8 +40,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Case_Studies&Reports" %}
-                        <li><a href="/categories/Case_Studies&Reports" class="">💡Case Studies & Reports ({{category[1].size}})</a></li>
+                    {% if category[0] == "Analysis_Reports" %}
+                        <li><a href="/categories/Analysis_Reports" class="">💡Analysis Reports ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -102,8 +102,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Case_Studies" %}
-                        <li><a href="/categories/Case_Studies" class="">💡Case Studies ({{category[1].size}})</a></li>
+                    {% if category[0] == "Competitions&Challenges" %}
+                        <li><a href="/categories/Competitions&Challenges" class="">💡Competitions & Challenges ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
