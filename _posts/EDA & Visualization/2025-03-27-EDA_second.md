@@ -1,14 +1,16 @@
 ---
-title: "건강검진 데이터로 가설검정" 
+title: "[EDA & Visualization] 건강검진 데이터로 가설검정" 
 
 
-categories: Statistical_Analysis
+categories: EDA&Visualization
 
 
 tag: [python, Data_Science, Data, visualization, Preprocessing]
 ---
 
 # 음주 여부에 따라 건강검진 수치 차이가 있을까 
+
+
 ---
 # 신장과 허리둘레의 크기는 체중과 상관관계가 있을까? 
 - 분석을 통해 가설을 검정해 봅니다. 
@@ -771,7 +773,7 @@ null_count.plot.barh(figsize = (10, 9))
 
 
     
-![png](/assets/images/Data_Science/second/output_19_1.png)
+![png](/assets/images/EDA&Visualization/second/output_19_1.png)
     
 
 
@@ -1603,7 +1605,7 @@ h = df.hist(figsize = (12, 12))
 
 
     
-![png](/assets/images/Data_Science/second/output_43_0.png)
+![png](/assets/images/EDA&Visualization/second/output_43_0.png)
     
 
 
@@ -1622,7 +1624,7 @@ h = df.iloc[:, :12].hist(figsize = (12, 12))
 
 
     
-![png](/assets/images/Data_Science/second/output_45_0.png)
+![png](/assets/images/EDA&Visualization/second/output_45_0.png)
     
 
 
@@ -1635,7 +1637,7 @@ h = df.iloc[:, 12:24].hist(figsize = (12, 12), bins = 100)
 
 
     
-![png](/assets/images/Data_Science/second/output_46_0.png)
+![png](/assets/images/EDA&Visualization/second/output_46_0.png)
     
 
 
@@ -1647,7 +1649,7 @@ h = df.iloc[:, 24:].hist(figsize = (12, 12), bins = 10)
 
 
     
-![png](/assets/images/Data_Science/second/output_47_0.png)
+![png](/assets/images/EDA&Visualization/second/output_47_0.png)
     
 
 
@@ -1703,7 +1705,7 @@ df["음주여부"].value_counts().plot.bar()
 
 
     
-![png](/assets/images/Data_Science/second/output_51_1.png)
+![png](/assets/images/EDA&Visualization/second/output_51_1.png)
     
 
 
@@ -1721,7 +1723,7 @@ sns.countplot(x = "음주여부", data = df)
 
 
     
-![png](/assets/images/Data_Science/second/output_52_1.png)
+![png](/assets/images/EDA&Visualization/second/output_52_1.png)
     
 
 
@@ -1751,7 +1753,7 @@ sns.countplot(data = df, x = "음주여부", hue = "성별코드")
 
 
     
-![png](/assets/images/Data_Science/second/output_54_1.png)
+![png](/assets/images/EDA&Visualization/second/output_54_1.png)
     
 
 
@@ -1771,7 +1773,7 @@ sns.countplot(data = df, x = "연령대코드(5세단위)", hue = "음주여부"
 
 
     
-![png](/assets/images/Data_Science/second/output_55_1.png)
+![png](/assets/images/EDA&Visualization/second/output_55_1.png)
     
 
 
@@ -1796,7 +1798,7 @@ sns.countplot(data = df, x = "신장(5cm단위)")
 
 
     
-![png](/assets/images/Data_Science/second/output_57_1.png)
+![png](/assets/images/EDA&Visualization/second/output_57_1.png)
     
 
 
@@ -1816,7 +1818,7 @@ sns.countplot(data = df, x = "체중(5kg단위)")
 
 
     
-![png](/assets/images/Data_Science/second/output_58_1.png)
+![png](/assets/images/EDA&Visualization/second/output_58_1.png)
     
 
 
@@ -1838,7 +1840,7 @@ sns.countplot(data = df, x = "신장(5cm단위)", hue = "성별코드")
 
 
     
-![png](/assets/images/Data_Science/second/output_59_1.png)
+![png](/assets/images/EDA&Visualization/second/output_59_1.png)
     
 
 
@@ -1859,7 +1861,7 @@ sns.countplot(data = df, x = "체중(5kg단위)", hue = "성별코드")
 
 
     
-![png](/assets/images/Data_Science/second/output_60_1.png)
+![png](/assets/images/EDA&Visualization/second/output_60_1.png)
     
 
 
@@ -1883,7 +1885,7 @@ sns.barplot(data = df, x = "연령대코드(5세단위)", y = "총콜레스테�
 
 
     
-![png](/assets/images/Data_Science/second/output_62_1.png)
+![png](/assets/images/EDA&Visualization/second/output_62_1.png)
     
 
 
@@ -1904,7 +1906,7 @@ sns.barplot(data = df, x = "연령대코드(5세단위)", y = "총콜레스테�
 
 
     
-![png](/assets/images/Data_Science/second/output_63_1.png)
+![png](/assets/images/EDA&Visualization/second/output_63_1.png)
     
 
 
@@ -1925,7 +1927,7 @@ sns.barplot(data = df, x = "연령대코드(5세단위)", y = "트리글리세�
 
 
     
-![png](/assets/images/Data_Science/second/output_64_1.png)
+![png](/assets/images/EDA&Visualization/second/output_64_1.png)
     
 
 
@@ -1945,7 +1947,7 @@ sns.barplot(data = df, x = "연령대코드(5세단위)", y = "체중(5kg단위)
 
 
     
-![png](/assets/images/Data_Science/second/output_65_1.png)
+![png](/assets/images/EDA&Visualization/second/output_65_1.png)
     
 
 
@@ -1965,7 +1967,7 @@ sns.barplot(data = df, x = "연령대코드(5세단위)", y = "체중(5kg단위)
 
 
     
-![png](/assets/images/Data_Science/second/output_66_1.png)
+![png](/assets/images/EDA&Visualization/second/output_66_1.png)
     
 
 
@@ -1987,7 +1989,7 @@ sns.lineplot(data = df, x = "연령대코드(5세단위)", y = "체중(5kg단위
 
 
     
-![png](/assets/images/Data_Science/second/output_68_1.png)
+![png](/assets/images/EDA&Visualization/second/output_68_1.png)
     
 
 
@@ -2007,7 +2009,7 @@ sns.lineplot(data = df, x = "연령대코드(5세단위)", y = "신장(5cm단위
 
 
     
-![png](/assets/images/Data_Science/second/output_69_1.png)
+![png](/assets/images/EDA&Visualization/second/output_69_1.png)
     
 
 
@@ -2028,7 +2030,7 @@ sns.pointplot(data = df, x = "연령대코드(5세단위)", y = "체중(5kg단�
 
 
     
-![png](/assets/images/Data_Science/second/output_70_1.png)
+![png](/assets/images/EDA&Visualization/second/output_70_1.png)
     
 
 
@@ -2048,7 +2050,7 @@ sns.pointplot(data = df, x = "연령대코드(5세단위)", y = "신장(5cm단�
 
 
     
-![png](/assets/images/Data_Science/second/output_71_1.png)
+![png](/assets/images/EDA&Visualization/second/output_71_1.png)
     
 
 
@@ -2068,7 +2070,7 @@ sns.lineplot(data = df, x = "연령대코드(5세단위)", y = "혈색소", hue 
 
 
     
-![png](/assets/images/Data_Science/second/output_72_1.png)
+![png](/assets/images/EDA&Visualization/second/output_72_1.png)
     
 
 
@@ -2104,7 +2106,7 @@ sns.boxplot(data = df, x = "신장(5cm단위)", y = "체중(5kg단위)", hue = "
 
 
     
-![png](/assets/images/Data_Science/second/output_74_1.png)
+![png](/assets/images/EDA&Visualization/second/output_74_1.png)
     
 
 
@@ -2126,7 +2128,7 @@ sns.violinplot(data = df_sample, x = "신장(5cm단위)", y = "체중(5kg단위)
 
 
     
-![png](/assets/images/Data_Science/second/output_76_1.png)
+![png](/assets/images/EDA&Visualization/second/output_76_1.png)
     
 
 
@@ -2146,7 +2148,7 @@ sns.violinplot(data = df_sample, x = "신장(5cm단위)", y = "체중(5kg단위)
 
 
     
-![png](/assets/images/Data_Science/second/output_77_1.png)
+![png](/assets/images/EDA&Visualization/second/output_77_1.png)
     
 
 
@@ -2166,7 +2168,7 @@ sns.violinplot(data = df_sample, x = "연령대코드(5세단위)", y = "혈색�
 
 
     
-![png](/assets/images/Data_Science/second/output_78_1.png)
+![png](/assets/images/EDA&Visualization/second/output_78_1.png)
     
 
 
@@ -2218,7 +2220,7 @@ sns.swarmplot(data = df_sample, x = "신장(5cm단위)", y = "체중(5kg단위)"
 
 
     
-![png](/assets/images/Data_Science/second/output_80_3.png)
+![png](/assets/images/EDA&Visualization/second/output_80_3.png)
     
 
 
@@ -2257,7 +2259,7 @@ sns.swarmplot(data = df_sample, x = "연령대코드(5세단위)", y = "혈색�
 
 
     
-![png](/assets/images/Data_Science/second/output_81_3.png)
+![png](/assets/images/EDA&Visualization/second/output_81_3.png)
     
 
 
@@ -2281,7 +2283,7 @@ sns.lmplot(data = df_sample, x = "연령대코드(5세단위)", y = "혈색소",
 
 
     
-![png](/assets/images/Data_Science/second/output_82_2.png)
+![png](/assets/images/EDA&Visualization/second/output_82_2.png)
     
 
 
@@ -2313,7 +2315,7 @@ sns.scatterplot(data = df, x = "혈청지오티(AST)", y = "혈청지피티(ALT)
 
 
     
-![png](/assets/images/Data_Science/second/output_85_1.png)
+![png](/assets/images/EDA&Visualization/second/output_85_1.png)
     
 
 
@@ -2334,7 +2336,7 @@ sns.lmplot(data = df_sample, x = "신장(5cm단위)", y = "체중(5kg단위)", h
 
 
     
-![png](/assets/images/Data_Science/second/output_87_1.png)
+![png](/assets/images/EDA&Visualization/second/output_87_1.png)
     
 
 
@@ -2353,7 +2355,7 @@ sns.lmplot(data = df_sample, x = "신장(5cm단위)", y = "체중(5kg단위)", h
 
 
     
-![png](/assets/images/Data_Science/second/output_88_1.png)
+![png](/assets/images/EDA&Visualization/second/output_88_1.png)
     
 
 
@@ -2372,7 +2374,7 @@ sns.lmplot(data = df_sample, x = "수축기혈압", y = "이완기혈압", hue =
 
 
     
-![png](/assets/images/Data_Science/second/output_89_1.png)
+![png](/assets/images/EDA&Visualization/second/output_89_1.png)
     
 
 
@@ -2419,7 +2421,7 @@ sns.lmplot(data = df_sample, x = "혈청지오티(AST)", y = "혈청지피티(AL
 
 
     
-![png](/assets/images/Data_Science/second/output_92_1.png)
+![png](/assets/images/EDA&Visualization/second/output_92_1.png)
     
 
 
@@ -2767,7 +2769,7 @@ sns.lmplot(data = df_ASLT, x = "혈청지오티(AST)", y = "혈청지피티(ALT)
 
 
     
-![png](/assets/images/Data_Science/second/output_95_1.png)
+![png](/assets/images/EDA&Visualization/second/output_95_1.png)
     
 
 
@@ -3128,7 +3130,7 @@ sns.lmplot(data = df_ASLT_high, x = "혈청지오티(AST)", y = "혈청지피티
 
 
     
-![png](/assets/images/Data_Science/second/output_98_1.png)
+![png](/assets/images/EDA&Visualization/second/output_98_1.png)
     
 
 
@@ -3253,7 +3255,7 @@ sns.displot(data = df, x = "총콜레스테롤")
 
 
     
-![png](/assets/images/Data_Science/second/output_102_1.png)
+![png](/assets/images/EDA&Visualization/second/output_102_1.png)
     
 
 
@@ -3917,7 +3919,7 @@ sns.displot(data = df_chol1, x = "총콜레스테롤", hue = "음주여부")
 
 
     
-![png](/assets/images/Data_Science/second/output_105_1.png)
+![png](/assets/images/EDA&Visualization/second/output_105_1.png)
     
 
 
@@ -3937,7 +3939,7 @@ sns.displot(data = df_chol0, x = "총콜레스테롤", hue = "음주여부")
 
 
     
-![png](/assets/images/Data_Science/second/output_106_1.png)
+![png](/assets/images/EDA&Visualization/second/output_106_1.png)
     
 
 
@@ -3959,7 +3961,7 @@ plt.axvline(df["총콜레스테롤"].median(), linestyle = "--")
 
 
     
-![png](/assets/images/Data_Science/second/output_107_1.png)
+![png](/assets/images/EDA&Visualization/second/output_107_1.png)
     
 
 
@@ -3979,7 +3981,7 @@ sns.displot(data = df_sample, x = "감마지티피", hue = "음주여부", kde =
 
 
     
-![png](/assets/images/Data_Science/second/output_108_1.png)
+![png](/assets/images/EDA&Visualization/second/output_108_1.png)
     
 
 
@@ -4769,7 +4771,7 @@ sns.heatmap(df_corr, annot = True, fmt = ".2f", cmap = "Blues")
 
 
     
-![png](/assets/images/Data_Science/second/output_118_1.png)
+![png](/assets/images/EDA&Visualization/second/output_118_1.png)
     
 
 
@@ -4790,7 +4792,7 @@ sns.heatmap(df_corr, annot = True, fmt = ".2f", cmap = "Blues", mask = mask)
 
 
     
-![png](/assets/images/Data_Science/second/output_119_1.png)
+![png](/assets/images/EDA&Visualization/second/output_119_1.png)
     
 
 
