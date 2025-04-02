@@ -8,9 +8,9 @@ tag: [python, Data_Structure, baekjoon, Coding_test, basic, list]
 
 ### 배열의 정의와 기본 개념 
 
-    ◾배열은 연속된 메모리 공간에 순차적으로 저장된 데이터 모음입니다. 
+    ◾ 배열은 연속된 메모리 공간에 순차적으로 저장된 데이터 모음입니다. 
 
-    ◾배열을 구성하는 각각의 값을 요소 (element)라고 하며, 배열에서의 위치를 가리키는 숫자는 인덱스 (index)라고 합니다. 
+    ◾ 배열을 구성하는 각각의 값을 요소 (element)라고 하며, 배열에서의 위치를 가리키는 숫자는 인덱스 (index)라고 합니다. 
 
 ### 배열의 특징
 
@@ -18,7 +18,8 @@ tag: [python, Data_Structure, baekjoon, Coding_test, basic, list]
 
     ◾ 연속된 메모리에 단일 블록화하여 데이터를 저장합니다. 
 
-    ◾ 실제 메모리 상에서 물리적으로 데이터가 순차적으로 저장되기 때문에 데이터에 순서가 있으며, index가 존재하여 indexing 및 slicing이 가능합니다. 
+    ◾ 실제 메모리 상에서 물리적으로 데이터가 순차적으로 저장되기 때문에 데이터에 순서가 있으며, 
+        index가 존재하여 indexing 및 slicing이 가능합니다. 
 
 
 ### 배열의 시간 복잡도 분석 
@@ -54,7 +55,7 @@ print(not_in_list[0])
 print(not_in_list[1])
 ```
 
-    ◾30명의 학생 중 과제를 제출하지 않은 2명을 찾는 문제입니다. 
+    ◾ 30명의 학생 중 과제를 제출하지 않은 2명을 찾는 문제입니다. 
     
     과제를 제출한 학생의 list를 먼저 작성하고 이후 작성하지 않은 학생들의 list를 작성하여 sort()를 
     
@@ -75,8 +76,8 @@ for i in range(10) :
 print(len(remain_list))
 ```
 
-    ◾10개의 수를 42로 나누어 나머지를 중복없이 list에 append 하여 remain_list의 길이를 출력하는 문제입니다. 
+    ◾ 10개의 수를 42로 나누어 나머지를 중복없이 list에 append 하여 remain_list의 길이를 출력하는 문제입니다. 
 
-### 참조 
+### 참고
 
 [yoongrammer님의 블로그](https://yoongrammer.tistory.com/43)

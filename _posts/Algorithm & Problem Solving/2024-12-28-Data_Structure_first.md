@@ -69,7 +69,7 @@ tag: [python, Data_Structure, baekjoon, Coding_test, basic]
     ◾ 저장되는 자료의 전후관계가 1:n 또는 n:m 입니다. 
 
 
-### 참조 
+### 참고
 
 [자료구조 위키피디아](https://ko.wikipedia.org/wiki/%EC%9E%90%EB%A3%8C_%EA%B5%AC%EC%A1%B0)
 

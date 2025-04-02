@@ -119,7 +119,7 @@ print(answer)
         ▪ blueray의 갯수보다 M이 더 많거나 같으면 최소 answer은 middle이거나 더 적은 값이 될 수 있습니다.
     ◾ 따라서 left 값과 right 값이 만나는 지점에서 while문이 종료되고, answer 값을 출력합니다.     
 
-### 참조
+### 참고
 
 [kdb.velog 님의 블로그](https://velog.io/@kimdukbae/%EC%9D%B4%EB%B6%84-%ED%83%90%EC%83%89-%EC%9D%B4%EC%A7%84-%ED%83%90%EC%83%89-Binary-Search)
 

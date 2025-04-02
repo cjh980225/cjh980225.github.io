@@ -5,7 +5,7 @@ title: "[Programmers_SQL] 조건에 부합하는 중고거래 댓글 조회하�
 categories: SQL_Practice
 
 
-tag: [python, Data_Science, Data, visualization, Preprocessing]
+tag: [SQL, Programmers, Solve]
 
 ---
 

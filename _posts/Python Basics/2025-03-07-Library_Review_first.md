@@ -12,7 +12,7 @@ tag: [python, library, library_review, pandas]
 
 Pandas Library
 
-* [10 minutes to pandas 문서 참조](https://pandas.pydata.org/docs/user_guide/10min.html)
+* [10 minutes to pandas 문서 참고](https://pandas.pydata.org/docs/user_guide/10min.html)
 
 
 ```python
