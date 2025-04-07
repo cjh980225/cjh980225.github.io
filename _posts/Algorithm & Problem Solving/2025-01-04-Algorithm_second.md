@@ -6,7 +6,7 @@ tag: [python, Algorithm, baekjoon, Coding_test, basic]
 
 ## 정렬 (Sorting)
 
-## 정렬의 정의와 기본 개념 
+### 정렬의 정의와 기본 개념 
 
     ◾ 원소들을 번호순이나 사전 순서와 같이 일정한 순서대로 열거하는 알고리즘이다. 
 
@@ -14,7 +14,7 @@ tag: [python, Algorithm, baekjoon, Coding_test, basic]
 
     ◾ 데이터의 정규화나 의미있는 결과물을 생성하는 데 유용히 쓰인다. 
 
-## 정렬의 특징 
+### 정렬의 특징 
 
     ◾ 정렬 알고리즘의 종류 
 
@@ -96,7 +96,7 @@ for _ in range(T) :
     ◾ candidates[i][1]을 통해 서류심사 성적이 가장 높은 사람부터 평가하며 
         서류심사 성적과 면접심사 성적을 비교합니다. 
 
-        ▪ 하위호환있지 않은 경우의 수를 색출합니다. 
+        ▪ 하위호환이 있지 않은 경우의 수를 색출합니다. 
 
 [예제 11728](https://www.acmicpc.net/problem/11728)
 

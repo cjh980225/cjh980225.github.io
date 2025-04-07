@@ -6,7 +6,7 @@ tag: [python, Algorithm, baekjoon, Coding_test, basic]
 
 ## 완전탐색 (Brute Force)
 
-## 완전탐색의 정의와 기본 개념 
+### 완전탐색의 정의와 기본 개념 
 
     ◾ Brute : 무식한, Force : 힘 따라서 무식한 힘으로 해석할 수 있습니니다. 
 
@@ -16,7 +16,7 @@ tag: [python, Algorithm, baekjoon, Coding_test, basic]
 
     ◾ 알고리즘 설계의 가장 기본적인 접근 방법은 해가 존재할 것으로 예상되는 모든 영역을 전체 탐색하는 방법입니다. 
 
-## 완전탐색의 특징 
+### 완전탐색의 특징 
 
     ◾ 완전탐색의 종류
 
