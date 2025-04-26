@@ -1,7 +1,7 @@
 ---
 title: "Feature Engineering (특징 엔지니어링 & 데이터 전처리)"
 layout: archive
-permalink: categories/Feature_Eingineering
+permalink: categories/Feature_Engineering
 author_profile: true
 types: posts
 sidebar_main: true
