@@ -26,8 +26,8 @@
 
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Feature_Eingineering" %}
-                        <li><a href="/categories/Feature_Eingineering" class="">💡Feature Engineering ({{category[1].size}})</a></li>
+                    {% if category[0] == "Feature_Engineering" %}
+                        <li><a href="/categories/Feature_Engineering" class="">💡Feature Engineering ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

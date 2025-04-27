@@ -1,5 +1,5 @@
 ---
-title: "[Feature Engineering] 최적의 자취방 구하기기 "
+title: "[Feature Engineering] 최적의 자취방 구하기"
 
 categories: Feature_Engineering
 
