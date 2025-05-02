@@ -33,7 +33,7 @@ LV 2️⃣
 |Column name|Type|Nullable|Info|
 |-|-|-|-|
 |`AUTHOR_ID`|INTEGER|FALSE|저자 ID|
-|`AUTHOR_NAME`|VARCHAR(N)|FALSE|저자명명|
+|`AUTHOR_NAME`|VARCHAR(N)|FALSE|저자명|
 
 ## 문제 설명
 
