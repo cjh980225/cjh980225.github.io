@@ -1,5 +1,5 @@
 ---
-title: "[Seoul_Subway] 서울 지하철 이용 패턴 분석 : 2025년 1분기 데이터로 살펴본 지하철 이용 행태"
+title: "[Seoul Subway] 서울 지하철 이용 패턴 분석 : 2025년 1분기 데이터로 살펴본 지하철 이용 행태"
 
 categories: Analysis_Reports
 

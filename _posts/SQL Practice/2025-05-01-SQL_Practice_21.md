@@ -24,14 +24,14 @@ LV 2️⃣
 |-|-|-|-|
 |`SHIPMENT_ID`|INT(N)|FALSE|아이스크림 공장에서 아이스크림 가게까지의 출하 번호|
 |`FLAVOR`|VARCHAR(N)|FALSE|아이스크림 맛|
-|`TOTAL_ORDER`|INT(N)|FALSE|상반기 아이스크림 총 주문량량|
+|`TOTAL_ORDER`|INT(N)|FALSE|상반기 아이스크림 총 주문량|
 
 ◾ ICECREAM_INFO
 
 |Column name|Type|Nullable|Info|
 |-|-|-|-|
 |`FLAVOR`|VARCHAR(N)|FALSE|아이스크림 맛|
-|`INGREDIENT_TYPE`|VARCHAR(N)|FALSE|아이스크림의 성분 타입입|
+|`INGREDIENT_TYPE`|VARCHAR(N)|FALSE|아이스크림의 성분 타입|
 
 ## 문제 설명
 
