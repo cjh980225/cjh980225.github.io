@@ -6,8 +6,6 @@ categories: Python_Basics
 
 
 tag: [python, library, library_review, pandas]
-
-
 ---
 
 Pandas Library
